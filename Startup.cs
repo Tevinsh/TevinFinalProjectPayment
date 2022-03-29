@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ using PaymentAPI.Data;
 using PaymentAPI.Configuration;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.FileProviders;
 
 namespace PaymentAPI
 {
@@ -102,6 +104,9 @@ namespace PaymentAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PaymentAPI v1"));
             }
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             //jwt
             app.UseAuthentication();
