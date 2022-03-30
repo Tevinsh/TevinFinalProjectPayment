@@ -16,10 +16,10 @@ namespace PaymentAPI.Controllers
     [ApiController]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 
-    public class PaymentDetailsController : ControllerBase
+    public class PaymentDetailController : ControllerBase
     {
         private readonly ApiDbContext _context;
-        public PaymentDetailsController(ApiDbContext context)
+        public PaymentDetailController(ApiDbContext context)
         {
             _context = context;
         }
@@ -35,6 +35,10 @@ namespace PaymentAPI.Controllers
         public IActionResult GetPaymentDetailsById(int id)
         {
             var result = _context.Payment.FirstOrDefault(x => x.paymentDetailId == id);
+            if (result == null)
+            {
+                return Ok(new {status = "Ok", Keterangan = "Not Found"});
+            }
             return Ok(result);
         }
 
