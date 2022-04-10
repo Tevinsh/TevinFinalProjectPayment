@@ -52,6 +52,9 @@ namespace PaymentAPI
                     Scheme = "Bearer"
                 });
 
+                //addcors
+                services.AddCors();
+
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement()
                 {
                     {
@@ -104,6 +107,12 @@ namespace PaymentAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PaymentAPI v1"));
             // }
+
+            app.UseCors(builder => builder
+    .WithOrigins("http://localhost:4200")
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials());
 
             app.UseDefaultFiles();
             app.UseStaticFiles();

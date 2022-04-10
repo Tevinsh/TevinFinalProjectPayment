@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_14\\PaymentAPI\\PaymentAPI.csproj": {}
+    "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\PaymentAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_14\\PaymentAPI\\PaymentAPI.csproj": {
+    "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_14\\PaymentAPI\\PaymentAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\PaymentAPI.csproj",
         "projectName": "PaymentAPI",
-        "projectPath": "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_14\\PaymentAPI\\PaymentAPI.csproj",
-        "packagesPath": "C:\\Users\\noname\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noname\\Desktop\\OCBC Program\\Session_14\\PaymentAPI\\obj\\",
+        "projectPath": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\PaymentAPI.csproj",
+        "packagesPath": "C:\\Users\\Pangeran Tevin Shidq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\noname\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Pangeran Tevin Shidq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +41,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
