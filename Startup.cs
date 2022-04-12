@@ -109,7 +109,7 @@ namespace PaymentAPI
             // }
 
             app.UseCors(builder => builder
-    .AllowAnyOrigin()
+    .WithOrigins("http://localhost:4200")
     .AllowAnyMethod()
     .AllowAnyHeader()
     .AllowCredentials());
@@ -120,7 +120,8 @@ namespace PaymentAPI
             //jwt
             app.UseAuthentication();
 
-            app.UseHttpsRedirection();
+            //disable https redirection
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

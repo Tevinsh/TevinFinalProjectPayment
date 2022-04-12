@@ -4673,11 +4673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\PaymentAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\copy of finalProject untuk percobaan interceptor\\PaymentAPI\\PaymentAPI.csproj",
       "projectName": "PaymentAPI",
-      "projectPath": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\PaymentAPI.csproj",
+      "projectPath": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\copy of finalProject untuk percobaan interceptor\\PaymentAPI\\PaymentAPI.csproj",
       "packagesPath": "C:\\Users\\Pangeran Tevin Shidq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\FinalProjectAngular\\PaymentAPI\\obj\\",
+      "outputPath": "C:\\Users\\Pangeran Tevin Shidq\\Desktop\\copy of finalProject untuk percobaan interceptor\\PaymentAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pangeran Tevin Shidq\\AppData\\Roaming\\NuGet\\NuGet.Config"
