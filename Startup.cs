@@ -109,11 +109,9 @@ namespace PaymentAPI
             // }
 
             app.UseCors(builder => builder
-    .WithOrigins("http://localhost:4200",
-                    "https://tevin-finalproject-angular.herokuapp.com/")
+    .AllowAnyOrigin()
     .AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials());
+    .AllowAnyHeader());
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
